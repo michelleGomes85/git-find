@@ -4,6 +4,7 @@ import './styles.css'
 import { Header } from '../../components/Header'
 import { Input } from '../../components/Input'
 import { Button } from '../../components/Button'
+import ItemList from '../../components/ItemList'
 import background from '../../assets/background.png'
 
 function App() {
@@ -36,6 +37,13 @@ function App() {
           </div>
 
           <hr/>
+
+          <div>
+            <h4>Repositórios</h4>
+            <ItemList title="Teste1" description="teste de descrição"></ItemList>
+            <ItemList title="Teste1" description="teste de descrição"></ItemList>
+            <ItemList title="Teste1" description="teste de descrição"></ItemList>
+          </div>
           
         </div>
       </div>
