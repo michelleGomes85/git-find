@@ -1,0 +1,60 @@
+.content {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.background {
+    margin-top: 80px;
+    height: 95vh;
+    position: fixed;
+    left: 0;
+}
+
+.info {
+    margin-top: 150px;
+    width: 60%;
+    margin-right: 150px;
+    color: #fff;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 50px;
+    max-width: 700px;
+    width: 100%;
+  }
+  
+.profile img.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #fff;
+}
+  
+.profile div {
+    color: #fff;
+}
+  
+.profile h3 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+  
+.profile p.description {
+    margin: 5px 0 0 0;
+    color: #ccc;
+    margin-top: 20px;
+}
+
+.profile div span {
+    display: block;
+    margin-top: 10px;
+}
+  
