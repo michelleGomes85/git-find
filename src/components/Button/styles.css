@@ -13,11 +13,11 @@ button {
   button:hover {
     background-color: #fff;
     color: #000;
-    border-color: #4CAF50;
+    border-color: #539BF5;
   }
   
   button:focus {
     outline: none;
-    border-color: #4CAF50;
+    border-color: #539BF5;
   }
   

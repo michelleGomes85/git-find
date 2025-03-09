@@ -1,11 +1,12 @@
+import "./styles.css";
 
-import "./styles.css"
+const Input = ({ className, ...props }) => {
+  return (
+    <input 
+      className={`custom-input ${className || ''}`} 
+      {...props}
+    />
+  );
+};
 
-const Input = ({ name ,placeholder }) => {
-
-    return (
-      <input name={name} placeholder={placeholder} />
-    );
-  };
-  
-  export { Input };
+export { Input };

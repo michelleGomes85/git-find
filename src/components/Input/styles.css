@@ -14,7 +14,7 @@ input {
   
   input:focus {
     outline: none;
-    border-color: #4CAF50; 
+    border-color: #539BF5; 
   }
   
   input::placeholder {
