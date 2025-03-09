@@ -4,6 +4,7 @@ import { Input } from "../../components/Input";
 import { Button } from "../../components/Button";
 import ItemList from "../../components/ItemList";
 import background from "../../assets/background.png";
+import logo from "../../assets/logo.png";
 
 import "./styles.css";
 
@@ -11,9 +12,9 @@ function App() {
   const [user, setUser] = useState("");
   const [currentUser, setCurrentUser] = useState(null);
   const [repository, setRepository] = useState([]);
-  const [filteredRepos, setFilteredRepos] = useState([]); // Estado para os repositórios filtrados
-  const [searchTerm, setSearchTerm] = useState(""); // Estado para o texto de busca
-  const [showContent, setShowContent] = useState(false); // Estado para animação
+  const [filteredRepos, setFilteredRepos] = useState([]); 
+  const [searchTerm, setSearchTerm] = useState("");
+  const [showContent, setShowContent] = useState(false);
 
   const handleGetData = async () => {
 
@@ -83,7 +84,8 @@ function App() {
         <img src={background} className="background" alt="background app" />
 
         <div className="info">
-          <div>
+          <div className="logo-input">
+            <img src={logo} className="logo" alt="logo app" />
             <Input
               value={user}
               onChange={(event) => setUser(event.target.value)}
@@ -93,6 +95,7 @@ function App() {
             />
             <Button text="Buscar" onClick={handleGetData} />
           </div>
+
 
           {showContent && currentUser && (
             <div className="fade-in">
