@@ -1,5 +1,7 @@
 # Git Find
 
+!["tela aplicação"](src/assets/screen_doc.png)
+
 ## 📌 Descrição
 Este é um projeto React que permite buscar usuários do GitHub e visualizar suas informações de perfil e repositórios públicos. A interface inclui um campo de entrada onde o usuário pode digitar um nome de usuário do GitHub e, ao pressionar "Enter" ou clicar no botão "Buscar", os dados são carregados e exibidos com uma animação suave.
 
