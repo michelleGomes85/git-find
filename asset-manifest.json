@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/git-find/static/css/main.4b56660b.css",
+    "main.js": "/git-find/static/js/main.825b45f8.js",
+    "static/media/logo.png": "/git-find/static/media/logo.d13b4349db7ff4e27dae.png",
+    "index.html": "/git-find/index.html",
+    "main.4b56660b.css.map": "/git-find/static/css/main.4b56660b.css.map",
+    "main.825b45f8.js.map": "/git-find/static/js/main.825b45f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b56660b.css",
+    "static/js/main.825b45f8.js"
+  ]
+}
